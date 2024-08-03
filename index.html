@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="icon" type="image/x-icon" href="dashboard.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="main-heading">★ Securely Save and Access Your Information</h1>
+        <h3 class="sub-heading" style="color: black;">★ Register to save your personal data and easily access it anytime by sign in process.</h3>
+        <h3 class="sub-heading" style="color:red;">★ Sign-in Process : Through your email and password and then you will see your information.</h3>
+    </header>
+    <br>
+    <div class="container">     
+        <form id="reg">
+            <h1 style="text-decoration: double;text-decoration: underline;text-align: center;">Registration Page</h1><br>
+            <label for="Name">Name</label>
+            <input id="Name" placeholder="Enter user name" required><br>
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" placeholder="Enter date of birth" required><br>
+            <label for="ph">Phone Number</label>
+            <input type="number" id="ph" placeholder="Enter number" required><br>
+            <label for="adh">Aadhaar Number</label>
+            <input type="number" id="adh" placeholder="Enter Aadhaar number" required><br>
+            <label for="pn">PAN Number</label>
+            <input type="text" id="pn" placeholder="Enter PAN number" required><br>
+            <label for="bank">Bank Ac Number</label>
+            <input type="number" id="bank" placeholder="Enter Bank Ac number" required><br>
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Enter email" required><br>
+            <label for="pass">Password</label>
+            <input id="pass" type="password" placeholder="Enter password" required><br>
+            <button type="submit">Submit</button><br>
+            <h4 style="color: brown;">If you have already completed your registration process, then go to the sign-in page </h4>
+            <button type="button" onclick="goToSignIn()" >Sign in </button><br>
+        </form>
+    </div>
+    <script src="reg.js"></script>
+</body>
+</html>
